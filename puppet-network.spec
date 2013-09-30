@@ -1,5 +1,5 @@
 Name:		puppet-network	
-Version:	0.3
+Version:	0.4
 Release:	1cisco%{?dist}
 Summary:	Puppet Network module
 
@@ -37,6 +37,9 @@ cp -R * %{buildroot}/%{_usr}/share/puppet/modules/%{tmpname}/
 rm -rf %{buildroot}
 
 %changelog
+* Mon Sep 30 2013 Pradeep Kilambi <pkilambi@cisco.com> 0.4-1cisco
+- Added license file (pkilambi@cisco.com)
+
 * Thu May 16 2013 Pradeep Kilambi <pkilambi@cisco.com> 0.3-1cisco
 - 
 
